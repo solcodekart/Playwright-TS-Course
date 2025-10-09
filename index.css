@@ -1,8 +1,65 @@
+.link {
+  color: white;
+}
+
+link:hover {
+  color: red;
+}
+
 h1 {
-    text-align: center;
+  text-align: center;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+li {
+  text-align: center;
+  color: white;
+}
+
+.search {
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.navigation li {
+  background-color: black;
+  color: white;
 }
 
 main div h2,
-main div p {
-    font-style: italic;
+main div h3 {
+  text-align: center;
+  padding: 3px;
+  margin-top: 0px;
+  margin-bottom: -5px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5px;
+}
+
+.text {
+  text-align: center;
+  width: 500px;
+}
+
+.column {
+  columns: 1;
+  float: left;
+}
+.footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin-top: -14px;
+}
+
+.text {
+  margin-bottom: 10px;
+  margin-top: 0px;
 }
