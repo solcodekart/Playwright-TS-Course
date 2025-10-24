@@ -22,3 +22,14 @@ let num2: number = 20;
 
 let add: number = num1 + num2;
 let subtract: number = num2 - num1;
+
+// union types
+let id: string | number;
+
+id = "10";
+id = 10;
+
+let result: number | boolean | null;
+
+result = 100;
+result = true;
