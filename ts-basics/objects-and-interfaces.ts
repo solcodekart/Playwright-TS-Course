@@ -84,3 +84,26 @@ const secondUser: UserPermission = {
     job: "developer",
     persmissions: "read-write"
 }
+
+// exercise sum total price
+interface Product {
+    name: string;
+    price: number;
+    getTotalPrice: (quantity: number) => number;
+}
+
+const phone: Product = {
+    name: "Apple",
+    price: 1000,
+    getTotalPrice: function(quantity: number) {
+        return quantity * this.price;
+    }
+}
+
+function orderDetails(quantity: number, product: Product) {
+    console.log(`Order for: ${product.name} units`);
+    console.log(`Product quantity:  ${quantity}`);
+    console.log(`Total price: ${product.getTotalPrice(quantity)}`);
+}
+
+orderDetails(5, phone);
